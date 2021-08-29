@@ -1,27 +1,63 @@
-.clear {
-	clear: both;
+html {
+    background-color: #f3f3f3;
 }
 
-#headshot {
-	width: 12.5%;
-	float: left;
-	margin-right: 30px;
+#top {
+    margin-right: 340px;
+    margin-left: 240px;
+    margin-bottom: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444444;
 }
 
-#name {
-	float: left;
+#separador {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: #cf8a05;
 }
 
 #contactDetails {
-	float: right;
+    color: #181818;
+    float: right;
+    float: right;
 }
 
 .sectionTitle {
-	float: left;
-	width: 25%;
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+    font-style: italic;
+    color: #cf8a05;
+    float: left;
+    width: 25%;
+}
+
+.clear {
+    margin-left: 30px;
+    border-width: 1px;
+    border-color: #dedede;
+    clear: both;
+}
+
+#headshot {
+    width: 12.5%;
+    float: left;
+    margin-right: 30px;
+}
+
+#name {
+    margin-left: 70px;
+    font-family: rokkitt;
+    float: left;
 }
 
 .sectionContent {
-	float: right;
-	width: 72.5%;
+    font-family: lato, Arial, Helvetica, sans-serif;
+    float: right;
+    width: 72.5%;
+}
+
+img {
+    border-radius: 50%;
 }
